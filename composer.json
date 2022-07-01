@@ -1,0 +1,11 @@
+{
+  "name": "basil-github/hello-world-package",
+  "description": "A hello world composer private package.",
+  "autoload": {
+    "psr-4": {
+      "basil-github\\search-engine\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
