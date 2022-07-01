@@ -1,10 +1,23 @@
 {
-  "name": "basil-github/hello-world-package",
+  "name": "searchengine/searchengine",
   "description": "A hello world composer private package.",
-  "autoload": {
-    "psr-4": {
-      "basil-github\\search-engine\\": "src/"
+  "type": "package",
+  "authors": [
+    {
+      "name": "Cffhris Corbffyn"
+    },
+    {
+      "name": "Fabieffn Potencffier",
+      "email": "fafffbien@symfony.com"
     }
+  ],
+  "autoload": {
+    "files": [
+      "src/HelloWorld.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
