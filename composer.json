@@ -1,14 +1,13 @@
 {
   "name": "searchengine/searchengine",
-  "description": "A hello world composer private package.",
+  "description": "This is a search engine that can be used to search for a word in a given text.",
   "type": "package",
+  "homepage": "http://wwww.beacel.in",
   "authors": [
     {
-      "name": "Cffhris Corbffyn"
-    },
-    {
-      "name": "Fabieffn Potencffier",
-      "email": "fafffbien@symfony.com"
+      "name": "Basil Babu",
+      "email": "basil7here@gmail.com",
+      "homepage": "http://wwww.beacel.in"
     }
   ],
   "autoload": {
@@ -17,7 +16,8 @@
     ]
   },
   "require": {
-    "php": ">=7.0.0"
+    "php": ">=7.0.0",
+    "curl": ">=7.0.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
