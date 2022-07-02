@@ -16,8 +16,7 @@
     ]
   },
   "require": {
-    "php": ">=7.0.0",
-    "curl": ">=7.0.0"
+    "php": ">=7.0.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
