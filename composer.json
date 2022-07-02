@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "files": [
-      "src/HelloWorld.php"
+      "src/Search.php"
     ]
   },
   "require": {
